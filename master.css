@@ -1,0 +1,59 @@
+body {
+  font-family: futura,"Trubuchet MS",sans-serif;
+  margin: 0px;
+  background-color: #444;
+  color: #4d494a;
+}
+ol,ul {
+	list-style: none;
+}
+.float-divider {
+  clear:both;
+  height:0;
+  overflow:hidden;
+  line-height:0;
+  font-size:0;
+}
+
+form input {font-size: 14pt;}
+#loading {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  display: inline;
+  display: none;
+  left: 0;
+  width: 100%;
+}
+#loading span {
+  z-index: 2;
+  background-color: #f6ec9b;
+  padding: 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+.shadow {
+  -moz-box-shadow: 4px 4px 3px #333;
+  -webkit-box-shadow: 4px 4px 3px #333;
+  box-shadow: 4px 4px 3px #333;
+}
+
+#content {
+  min-height: 200px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  width: 500px;
+  border: 1px solid #000;
+  background-color: #e9e8e8;
+}
+h2 {font: 24pt; font-weight: normal;}
+#stop_updating {display: none;}
+#feed {text-align:left;padding-left: 0;line-height: 1em;}
+.profile-pic {width: 48px; float: left;}
+.status-body {margin-left: 60px;}
+.new-tweet {background-color: #f6ec9b;}
+.screen-name, .tweet-text {font-size: 9pt;}
+.meta {font-size: 8pt; color: grey;}
+.entry {margin-bottom: 2px;}

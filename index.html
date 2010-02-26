@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>json-p</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="twitter.js"></script>
+    <link rel="stylesheet" href="master.css" type="text/css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <div id="loading"><span>Loading...</span></div>
+    <div id="content" class="shadow">
+      <h2>simple json-p</h2>
+      <form><input type="text" name="q" /><input type="submit" value="search twitter"></form>
+      <a href="#" id="stop_updating">stop updating</a>
+      <ul id="feed">
+        <li id="twitter_template" class="entry" style="display: none">
+          <div class="profile-pic">
+            <a class="tweet-url profile-pic url" href="">
+              <img width="48" height="48" src="" class="photo">
+            </a>
+          </div>
+          <div class="status-body">
+            <strong>
+              <a class="tweet-url screen-name" href=""></a>
+            </strong>
+            <span class="tweet-text"></span>
+            <span class="meta entry-meta">
+              <a href="" rel="bookmark" class="entry-date">
+                <span class="published timestamp"></span>
+              </a>
+              <span class="from"></span>
+            </span>
+          </div>
+          <div class="float-divider"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="float-divider"></div>
+  </body>
+</html>
